@@ -19,9 +19,9 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     
-strategy:
-  matrix: 
-  release: [R2020a, R2020b, R2021a, R2021b, R2022a]
+    strategy:
+      matrix: 
+        release: [R2020a, R2020b, R2021a, R2021b, R2022a]
   
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
