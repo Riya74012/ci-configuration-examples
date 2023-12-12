@@ -30,7 +30,7 @@ strategy:
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v1
         with: 
-         release: ${{ matrix.release}}
+         release: ${{ matrix.release }}
 
       # Runs a set of commands using the runners shell
       - name: Run all tests
